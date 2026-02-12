@@ -1,8 +1,14 @@
 import "./App.css";
 import { HashRouter, NavLink, Routes, Route } from "react-router-dom";
+import Logout from "./components/Logout";
 
 const Todo = () => {
-  return <p>這是 Todo 頁面</p>;
+  return (
+    <div>
+      <p>這是 Todo 頁面</p>
+      <Logout />
+    </div>
+  );
 };
 const Login = () => {
   return <p>這是登入頁面</p>;
